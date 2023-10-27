@@ -1,3 +1,3 @@
 # Coding-challenges-Repo
 
-osolving coding challenges fro codewares everyday
+Solving coding challenges fro codewares everyday
