@@ -1,3 +1,6 @@
+
+// Remove First and Last Character
+
 function removeChar(str){
      if (str.length < 2) {
            return str; 
