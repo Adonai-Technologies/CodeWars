@@ -1,3 +1,3 @@
-# Coding-challenges-Repo
+#CodeWars
 
 Solving coding challenges fro codewares everyday
