@@ -1,3 +1,3 @@
 #CodeWars
 
-Solving coding challenges fro codewares everyday
+Solving coding challenges everyday to improve my problem solving skills
