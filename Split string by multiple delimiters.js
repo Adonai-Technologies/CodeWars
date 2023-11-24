@@ -8,16 +8,10 @@
 
 // Important note: Result cannot contain empty string.
 
-function multipleSplit(str, delimiters) {
-    if (!delimiters || delimiters.length === 0) {
-      return str.split(/\s+/).filter(Boolean);
+function multipleSplit(string, delimiters=[]){
+    let arr = [string];
+    for (let d of delimiters) {
+      arr = arr.reduce((r, s) => r.concat(s.split(d)), []);
     }
-  
-    const escapeRegex = (input) => input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  
-    const delimiterPattern = new RegExp(
-      delimiters.map((delimiter) => escapeRegex(delimiter)).join('|')
-    );
-  
-    return str.split(delimiterPattern).filter(Boolean);
+    return arr.filter(Boolean);
   }
