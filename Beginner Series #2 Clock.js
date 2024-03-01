@@ -19,3 +19,5 @@ function past(h, m, s){
       let milliseconds = (h * 60 * 60 + m * 60 + s) * 1000;
       return milliseconds;
   }
+
+  // 
